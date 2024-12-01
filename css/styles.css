@@ -1,14 +1,14 @@
 /* Navbar Fix for Dropdown Menu */
 .navbar-collapse {
-  width: 100%;
-  background-color: #f8f9fa;
-  padding: 10px 0;
+  width: 100%; /* Ensures the menu takes up the full width */
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 0; /* Padding to give space around items */
 }
 
 .navbar-nav > li > a {
-  text-align: center;
-  font-size: 1.2em;
-  padding: 10px 15px;
+  text-align: center; /* Centers the menu items */
+  font-size: 1.2em; /* Slightly larger text for readability */
+  padding: 10px 15px; /* Adds padding to each menu item for better spacing */
 }
 
 /* Section Styling */
@@ -46,4 +46,3 @@ p {
   font-size: 1.2em;
   color: #555;
 }
-Final Steps
