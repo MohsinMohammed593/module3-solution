@@ -1,3 +1,4 @@
+/* General styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -9,10 +10,7 @@ body {
 
 .navbar-nav > li > a {
   text-align: center;
-}
-
-.container-fluid {
-  padding: 20px;
+  font-size: 1.2em;
 }
 
 h1 {
@@ -21,10 +19,15 @@ h1 {
 }
 
 h3 {
-  margin-top: 40px;
-  font-size: 1.8em;
+  margin-top: 20px;
+  font-size: 2em;
 }
 
 p {
   font-size: 1.2em;
+  color: #555;
+}
+
+.container-fluid {
+  padding: 20px;
 }
