@@ -9,30 +9,48 @@ body {
   margin-bottom: 0;
 }
 
+.navbar-collapse {
+  background-color: #f8f9fa; /* Light background for mobile dropdown */
+}
+
 .navbar-nav > li > a {
   text-align: center;
   font-size: 1.2em;
+  padding: 10px 15px;
 }
 
 /* Page Heading */
 h1 {
   margin-top: 20px;
   font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
 }
 
-/* Section Headings */
+/* Section Styling */
+.section {
+  height: 1000px;
+  padding: 50px 20px;
+}
+
+#chicken {
+  background-color: #f9f9f9; /* Light gray */
+}
+
+#beef {
+  background-color: #e9ecef; /* Slightly darker gray */
+}
+
+#sushi {
+  background-color: #f1f1f1; /* Another light gray */
+}
+
 h3 {
-  margin-top: 20px;
   font-size: 2em;
+  margin-bottom: 20px;
 }
 
-/* Paragraph Styles */
 p {
   font-size: 1.2em;
   color: #555;
-}
-
-/* Content Section Styling */
-.container-fluid {
-  padding: 20px;
 }
