@@ -1,9 +1,10 @@
-/* General styles */
+/* General Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
+/* Navbar */
 .navbar {
   margin-bottom: 0;
 }
@@ -13,21 +14,25 @@ body {
   font-size: 1.2em;
 }
 
+/* Page Heading */
 h1 {
   margin-top: 20px;
   font-size: 2.5em;
 }
 
+/* Section Headings */
 h3 {
   margin-top: 20px;
   font-size: 2em;
 }
 
+/* Paragraph Styles */
 p {
   font-size: 1.2em;
   color: #555;
 }
 
+/* Content Section Styling */
 .container-fluid {
   padding: 20px;
 }
